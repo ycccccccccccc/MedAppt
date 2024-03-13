@@ -1,4 +1,4 @@
-# TodoList
+# MedAppt
 
 ## 🚀 How to reproduce the project?
 1. Download MedAppt from https://github.com/ycccccccccccc/MedAppt
