@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "tsc --outDir dist && node dist/app.js"
+      "start": "tsc --outDir dist && npx prisma migrate dev --name init --preview-feature && node dist/app.js",
+      "deploy": "tsc --outDir dist && npx prisma migrate deploy && node dist/app.js"
     },
     "author": "",
     "license": "ISC",
